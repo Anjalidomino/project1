@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import Header from "./components/Header";
-import TaskInput from "./components/TaskInput";
-import TaskList from "./components/TaskList";
-import Footer from "./components/Footer";
+import Header from "./Header";
+import TaskInput from "./TaskInput";
+import TaskList from "./TaskList";
+import Footer from "./Footer";
 
 function App() {
   const [tasks, setTasks] = useState([]);
